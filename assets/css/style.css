@@ -1,0 +1,56 @@
+body {
+    font-family: 'ZCOOL QingKe HuangYou', 'serif', cursive;
+    font-size: 1.5rem;
+    background: url('/assets/images/space.jpeg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 10px 20%;
+    color: yellow;
+    text-align: center;
+}
+
+section {
+    width: 60%;
+    margin: 0 20%;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#thanosPic {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: auto;
+}
+
+#minusPower {
+    color: red;
+}
+
+.hero {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: auto;
+}
+
+#replayButton {
+    background: red;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 3px;
+    display: none;
+}

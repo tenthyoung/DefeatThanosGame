@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Defeat Thanos</h1>
+    <section>
+        <br>
+        <p id="instructions">
+            If Thanos' Gauntlet hits exactly 0, an infinity stone explodes! If you go negative, the Gauntlet recharges!
+            Click on a hero to attack! 
+        </p>
+        <div id="thanosContainer">
+            <img id="thanosPic" src="/assets/images/Thanos.png" alt="thanos">
+            <h3 id="replayButton" ><i class="fas fa-redo-alt"></i> Replay</h3>
+        </div>
+        <br>
+        <div id="winsDiv">
+            Infinity Stones Destroyed: <span id="wins">0/5</span>
+        </div>
+        <div id="powerContainer">
+            Gauntlet Power (<span id="minusPower">0</span>): <span id="gauntletPower">?</span>
+        </div>
+        <!-- <div id="scoreContainer">
+            Total Score: <span id="totalScore">0</span>
+        </div> -->
+        <div id="heroRow" class="container">
+            <div id="ironman"><img class="hero" src="/assets/images/iron man.png" alt="ironman pic"></div>
+            <div id="captainAmerica" ><img class="hero" src="/assets/images/captain_america.png" alt="captain america pic"></div>
+            <div id="spiderman"><img class="hero" src="/assets/images/spiderman.png" alt="spiderman pic"></div>
+            <div id="hulk"><img class="hero" src="/assets/images/Hulk.png" alt="hulk pic"></div>
+        </div>
+    </section>
+    <audio controls autoplay src="/assets/My Hero Academia OST - You Say Run + Jet Set Run (You Say Run v2).mp3"
+    ></audio>
+    
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/assets/javascript/game.js"></script>
+</body>
+</html>
