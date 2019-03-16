@@ -1,12 +1,3 @@
-//function that accepts crystal click effect, returns value
-//function that takes value and then adds it to total value
-//function that checks to see if the total value is equal to the number
-    //if greater than, you lose, change loss number
-    //if equal to, you win, change loss number
-//
-//random number between 1 and 12
-
-//generates random number between 19,000 and 120,000
 var targetNum = 0;
 var heroPowerArray = [];
 var heroes = new Object();
@@ -15,8 +6,6 @@ fillHeroPower();
 
 
 $(document).ready(function() {
-    var audio = document.getElementById('audio');
-    audio.play();
     
     newTargetNum();
     assignPower();
