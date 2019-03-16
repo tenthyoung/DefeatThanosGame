@@ -1,7 +1,7 @@
 body {
     font-family: 'ZCOOL QingKe HuangYou', 'serif', cursive;
     font-size: 1.5rem;
-    background: url('/assets/images/space.jpeg');
+    background: url('../images/space.jpeg');
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
