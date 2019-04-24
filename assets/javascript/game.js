@@ -5,8 +5,7 @@ var wins = 0;
 fillHeroPower();
 
 
-$(document).ready(function() {
-    
+$(document).ready(function() {    
     newTargetNum();
     assignPower();
 
@@ -46,7 +45,6 @@ function destroyStone () {
 }
 
 function heroClick () {
-    
     $('#ironman').click(function() {
         targetNum = targetNum - heroes.ironman;
         $('#gauntletPower').text(targetNum);
